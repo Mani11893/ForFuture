@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class AppTest{
 	
 	private WebDriver driver; 
-	String appURL = "http1://www.google.com";
+	String appURL = "https://www.google.com";
 
 	@BeforeClass
 	public void testSetUp() {
