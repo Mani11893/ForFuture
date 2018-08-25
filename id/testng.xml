@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.play.ExtentReportClass"/>
-      <class name="com.play.AppTest"/>
+      <class name="com.play.Newauto"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

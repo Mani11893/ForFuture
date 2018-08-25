@@ -3,14 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.play.ExtentReportClass">
+      <class name="com.play.Newauto">
         <methods>
-          <include name="failTest"/>
-          <include name="startReport"/>
-          <include name="endReport"/>
-          <include name="getResult"/>
+          <include name="exit"/>
+          <include name="bcd"/>
+          <include name="abc"/>
         </methods>
-      </class> <!-- com.play.ExtentReportClass -->
+      </class> <!-- com.play.Newauto -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
