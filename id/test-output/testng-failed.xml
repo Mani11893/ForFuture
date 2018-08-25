@@ -5,8 +5,8 @@
     <classes>
       <class name="com.play.Newauto">
         <methods>
+          <include name="ddd"/>
           <include name="exit"/>
-          <include name="bcd"/>
           <include name="abc"/>
         </methods>
       </class> <!-- com.play.Newauto -->

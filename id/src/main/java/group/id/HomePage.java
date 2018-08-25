@@ -40,7 +40,7 @@ public class HomePage {
 	}
 	public void pass()
 	{
-	pwd.sendKeys("manish11893");	
+	pwd.sendKeys("password");	
 	
 	}
 	public void sub() throws InterruptedException

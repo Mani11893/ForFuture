@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46023" started-at="2018-08-25T18:01:05Z" finished-at="2018-08-25T18:01:51Z">
+  <suite name="Default suite" duration-ms="21321" started-at="2018-08-25T18:28:49Z" finished-at="2018-08-25T18:29:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46023" started-at="2018-08-25T18:01:05Z" finished-at="2018-08-25T18:01:51Z">
+    <test name="Default test" duration-ms="21321" started-at="2018-08-25T18:28:49Z" finished-at="2018-08-25T18:29:10Z">
       <class name="com.play.Newauto">
-        <test-method status="PASS" signature="abc()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="abc" is-config="true" duration-ms="11550" started-at="2018-08-25T23:31:05Z" finished-at="2018-08-25T23:31:16Z">
+        <test-method status="PASS" signature="abc()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="abc" is-config="true" duration-ms="6055" started-at="2018-08-25T23:58:49Z" finished-at="2018-08-25T23:58:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
-        <test-method status="PASS" signature="bcd()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="bcd" duration-ms="6547" started-at="2018-08-25T23:31:16Z" finished-at="2018-08-25T23:31:23Z">
+        <test-method status="PASS" signature="bcd()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="bcd" duration-ms="2876" started-at="2018-08-25T23:58:55Z" finished-at="2018-08-25T23:58:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcd -->
-        <test-method status="PASS" signature="ccd()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="ccd" duration-ms="26496" started-at="2018-08-25T23:31:23Z" finished-at="2018-08-25T23:31:49Z">
+        <test-method status="PASS" signature="ccd()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="ccd" duration-ms="10473" started-at="2018-08-25T23:58:58Z" finished-at="2018-08-25T23:59:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ccd -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="exit" is-config="true" duration-ms="1384" started-at="2018-08-25T23:31:49Z" finished-at="2018-08-25T23:31:51Z">
+        <test-method status="PASS" signature="ddd()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="ddd" duration-ms="1450" started-at="2018-08-25T23:59:08Z" finished-at="2018-08-25T23:59:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ddd -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:com.play.Newauto@5bfbf16f]" name="exit" is-config="true" duration-ms="404" started-at="2018-08-25T23:59:10Z" finished-at="2018-08-25T23:59:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
