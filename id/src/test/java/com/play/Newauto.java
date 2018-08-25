@@ -50,6 +50,12 @@ public class Newauto {
 			home.pri();
 		}
 		
+		@Test
+		public void ddd()
+		{
+			home.getcount();
+		}
+		
 		
 		
 		@AfterClass

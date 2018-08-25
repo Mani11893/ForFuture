@@ -25,6 +25,8 @@ public class HomePage {
 	WebElement submit;
 	@FindBy(xpath = "//*[@id=':2y']")
 	WebElement pri;
+	@FindBy(css = "span.ts")
+	List<WebElement> count;
 	public void enterid()
 	{
 		id.sendKeys("manishdangwal8");
@@ -38,13 +40,13 @@ public class HomePage {
 	}
 	public void pass()
 	{
-	pwd.sendKeys("anything");	
+	pwd.sendKeys("manish11893");	
 	
 	}
 	public void sub() throws InterruptedException
 	{
 		submit.click();
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 	}
 
 	public void pri()
@@ -53,9 +55,10 @@ public class HomePage {
 		{
 			System.out.println("Selected");
 		}
-		
-		
-		
 	}
-
+	public void getcount()
+	{
+		
+		System.out.println(count.get(2).getText());
+	}
 }
