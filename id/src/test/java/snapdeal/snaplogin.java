@@ -26,7 +26,7 @@ public class snaplogin {
 		{
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\EXE\\chromedriver.exe");
 			 driver= new ChromeDriver();
-		}else if(browser.equalsIgnoreCase("firefox"))
+		}else if(browser.equalsIgnoreCase("firejfox"))
 		{
 		System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"\\EXE\\geckodriver.exe");
 		 driver= new FirefoxDriver();
